@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DeliveryApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="featured_food_image">Featured Food Image</string>
+    <string name="toolbar_subtitle">Your Subtitle</string>
+    <string name="logo_description">App Logo</string>
+    <string name="navigation_icon_description">Navigation Icon</string>
+    <string name="default_username">Guest User</string>
+    <string name="default_email">guest@example.com</string>
+
+
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- Featured Food Section -->
+        <ImageView
+            android:id="@+id/image_featured_food"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_food_image"
+            android:contentDescription="@string/featured_food_image" />
+
+        <TextView
+            android:id="@+id/text_featured_food_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/image_featured_food"
+            android:layout_marginTop="16dp"
+            android:text="Featured Food Item"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_featured_food_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_featured_food_title"
+            android:layout_marginTop="8dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus risus at libero ultrices."
+            android:textSize="16sp" />
+
+        <!-- News Section -->
+        <TextView
+            android:id="@+id/text_news_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_featured_food_description"
+            android:layout_marginTop="24dp"
+            android:text="Latest News"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_news_article_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_news_title"
+            android:layout_marginTop="8dp"
+            android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_news_article_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_news_article_1"
+            android:layout_marginTop="8dp"
+            android:text="Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            android:textSize="16sp" />
+
+        <!-- Sales Section -->
+        <TextView
+            android:id="@+id/text_sales_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_news_article_2"
+            android:layout_marginTop="24dp"
+            android:text="Sales on Food Items"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_sale_item_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_sales_title"
+            android:layout_marginTop="8dp"
+            android:text="Special Offer: Get 20% off on Pizza!"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/text_sale_item_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/text_sale_item_1"
+            android:layout_marginTop="8dp"
+            android:text="Limited Time Offer: Buy 1 Get 1 Free on Burgers!"
+            android:textSize="16sp" />
+
+        <!-- Placeholder image for Pepsi -->
+        <ImageView
+            android:id="@+id/image_pepsi"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_below="@id/text_sale_item_2"
+            android:layout_marginTop="24dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/placeholder_pepsi_image"
+            android:contentDescription="Pepsi Image" />
+
+
+        <!-- Add more sections, news articles, and sale items as needed -->
+
+    </RelativeLayout>
+</ScrollView>
